@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <title>OCTANE PUBG STORE / Services</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">OCTANE</span> PUBG STORE</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+            <li><a href="mailto:ashikjoju8055@gmail.com" >Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Purchase RP S15 / UC</h1>
+        <form action="https://www.midasbuy.com/midasbuy/ot/shop/pubgm" onsubmit="return (validate ())">
+          <input type="tel" name="pubgid" id="pubgid" placeholder="Enter PUBG ID" required>
+          <button type="submit" class="button_1">BUY NOW</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <ul id="services">
+            <li>
+              <h3>TOP-UP + FREE UC</h3>
+              <p>Pricing:<br><br>
+                 60 + 3UC = 80rs<br>
+                 300 + 40Uc = 420rs<br>
+                 600 + 90UC = 780rs<br>
+                 1500 + 375UC = 2200rs<br>
+                 3000 + 1000UC = 4800rs<br>
+                 6000 + 2400UC = 9999rs<br>
+           
+                
+                
+            </li>
+            <li>
+              <h3>RP S15 + UC</h3>
+               <p>Pricing: <br><br>
+                  RP S15 = 700rs<br>
+                  RP S15 + 70UC = 735rs<br>
+                  RP S15 + 100UC = 770rs<br>
+               
+               </p>
+            </li>
+            <li>
+              <h3>RP PLUS + FREE CRATE</h3>
+               <p>Pricing:<br><br> 
+                  RP PLUS PACK + 10 CRATE COUPON = 899rs
+                </p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>COMMENT</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Emial Address" required>
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message" required></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Octane Web Deisgn, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+  
+  <script type="text/javascript">
+  function validate()
+  {
+if((pubgid.length<12)||(isNaN(pubgid))) 
+     { 
+       alert("Can't fetch the data, redirecting to OCTANE SHOP") 
+       document.getElementById("pubgid").value=""; 
+       document.getElementById("pubgid").focus();
+     } 
+     
+ }
+  </script>
+  
+  
+</html>

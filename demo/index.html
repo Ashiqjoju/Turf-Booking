@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to OCTANE PUBG STORE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">OCTANE</span> PUBG STORE</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="mailto:ashikjoju8055@gmail.com" >Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>PlayerUnknown's Battleground</h1>
+        <p>PUBG is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole.In the game, up to one hundred players parachute onto an island and scavenge for weapons and equipment to kill others while avoiding getting killed themselves.</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Purchase RP S15 / UC</h1>
+        <form action="https://www.midasbuy.com/midasbuy/ot/shop/pubgm" onsubmit="return(validate())">
+          <input type="tel" placeholder="Enter Pubg ID" id="pubgid" name="pubgid" required>
+          <button type="submit" class="button_1">BOOK NOW</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="pubg_pc.jpeg">
+          <h3>PUBG PC</h3>
+          <p>OS: 64-bit Windows 7, Windows 8.1, Windows 10.<br>
+          Processor: Intel Core i5-4430 / AMD FX-6300.<br>
+          Memory: 8 GB RAM.<br>
+          Graphics: NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB.<br>
+          DirectX: Version 11.<br>
+          Network: A broadband Internet connection.<br>
+          Storage: 30 GB of free space.</p>
+        </div>
+        <div class="box">
+          <img src="pubg_lite.jpeg">
+          <h3>PUBG PC LITE</h3>
+          <p>OS: Android 5.1. 1 (Lollipop) or higher.<br>
+          CPU: Intel Quad-Core.<br>
+          RAM: 2GB.<br>
+          Storage: 1.5GB.</p>
+        </div>
+        <div class="box">
+          <img src="pubg_mob.jpeg">
+          <h3>PUBG MOBILE</h3>
+          <p>OS: Windows 7,8,10, 64bit.<br>
+          CPU: Core i3 2.4GHz.<br>
+          RAM: 4GB.<br>
+          GPU: DirectX11 Intel HD Graphics 4000.<br>
+          HDD: 4GB.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Octane Web Deisgn, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+
+  <script type="text/javascript">
+  function validate()
+  {
+if((pubgid.length<12)||(isNaN(pubgid))) 
+     { 
+       alert("Can't fetch the data, redirecting to OCTANE SHOP") 
+       document.getElementById("pubgid").value=""; 
+       document.getElementById("pubgid").focus();
+     } 
+     
+ }
+  </script>
+  
+</html>
